@@ -61,8 +61,8 @@ for i in range(X_train.shape[0]):
     
 Y_fin_train = np.reshape(shuffled_Y, (-1,1))
 print("\n Saving the training arrays...")
-np.save('Y_train2', Y_fin_train)
-np.save('X_train2', shuffled_X)
+np.save('Y_train', Y_fin_train)
+np.save('X_train', shuffled_X)
 
 
 # test images are retrieved in the form of a list
@@ -100,8 +100,8 @@ X_test = shuffled_Xt
 
 # saving test arrays
 print("\n Saving test arrays...")
-np.save('Y_test2', Y_test)
-np.save('X_test2', X_test)
+np.save('Y_test', Y_test)
+np.save('X_test', X_test)
         
         
         
