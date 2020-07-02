@@ -48,7 +48,6 @@ The final Result - \
 ### References
 The basic architecture of the model was inspired from the research paper, Emotion Recognition using Deep Convolutional Neural Networks by Enrique Correa, Arnoud Jonker, Michaël Ozo and Rob Stolk
 
-
-
+Suggestions and Contributions are always welcome:)
  
 
