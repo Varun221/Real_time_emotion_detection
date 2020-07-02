@@ -8,12 +8,12 @@ The original FER-2013 data set can be downloaded [here](https://drive.google.com
 To train the model - 
 Unzip the data into a folder containing dataset_prepare.py and run the python script. \
 This will create four ```.npy``` files in the directory namely 'X_train', 'X_test', 'Y_train' and 'Y_test'. \
-These are the concatenated training numpy arrays of shapes - \
+These are concatenated and shuffled numpy arrays of shapes - \
 X_train - (#training_examples, 48, 48, 3) \
 X_test - (#testing_examples, 48, 48, 3) \
 Y_train - (#training_examples, 1) \
 Y_test - (#testing_examples, 1) \
-These arrays are shuffled and can be loaded by -  \
+The arrays can be loaded by -  \
 ```python
 import numpy as np
 X_train = np.load('X_train.npy')
